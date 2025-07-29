@@ -1,0 +1,135 @@
+
+section{
+    align-items: flex-end;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    height: 766px;
+}
+
+.container-absolute{
+    position: absolute;
+    top: 1107px;
+    left: 670px;
+    transform: translateX(-25%);
+}
+
+.container-about{
+    align-items: flex-start;
+    display: flex;
+    gap: 40px;
+}
+
+/*left*/
+.city-image{
+    position: relative;
+}
+
+.city-image img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.city-image .box-green{
+    align-items: center;
+    background: linear-gradient(to left, #92C64E, #4BAF50);
+    border-bottom-right-radius: 5%;
+    bottom: 0.9%;
+    display: flex;
+    height: 177px;
+    position: absolute;
+    right: 0%;
+    width: 171px;
+}
+
+.city-image .box-green p{
+    color: #FFFFFF;
+    font-size: 22.53px;
+    font-weight: 200;
+    padding-left: 32px;
+}
+
+.city-image .box-green p span{
+    display: block;
+    line-height: 70px;
+    font-size: 88.5px;
+    font-weight: 700;
+}
+/* right */
+
+.about-content{
+    margin-top: 30px;
+}
+
+.about-content #about-slogan {
+    color: #53B150;
+    font-family: "Covered By Your Grace";
+    font-size: 25px;
+}
+.about-content #about-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-content #main-about {
+    color: #656565;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-content #main-about span {
+    display: block;
+}
+
+.list-about {
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    gap: 60px;
+    height: 177px;
+    margin-top: 40px;
+    overflow: hidden;
+    width: 460px;
+}
+
+.list-about img {
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: 0% 115%;
+    transform: scale(1.2);
+}
+
+.list-about ul {
+    color: #252924;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.list-about ul li i {
+    background: linear-gradient(to left, #92C64E, #4BAF50);
+    margin: 0 10px 15px 10px;
+    font-size: 23px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-about {
+    align-items: center;
+    background: linear-gradient(to left, #92C64E, #4BAF50);
+    border-radius: 50px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    height: 66px;
+    width: 185px;
+}
+
+.button-about a i {
+    font-size: 15px;
+    font-weight: 900;
+}

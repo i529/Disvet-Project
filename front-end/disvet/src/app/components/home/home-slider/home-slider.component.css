@@ -1,0 +1,66 @@
+section {
+    height: 980px;
+}
+
+.header-slider {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-slider h4 {
+    color: #56B350;
+    font-family: "Covered By Your Grace";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header-slider h2 {
+    color: #252924;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-slider img {
+    margin-top: 20px;
+}
+
+
+.container-slider {
+    margin-top: 60px;
+}
+
+.container-slider .container-image img {
+    border-radius: 10px;
+    height: 514px;
+    width: 590px;
+    object-fit: cover;
+}
+
+.swiper .slider-wrapper {
+    width: 1620px !important;
+}
+
+.swiper .slider-wrapper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    width: auto !important;
+}
+
+:host ::ng-deep .swiper-pagination-bullet {
+    background: #56B350;
+    height: 15px;
+    opacity: 1;
+    width: 15px;
+}
+
+.swiper .slider-wrapper .swiper-slide-button {
+    color: #FFFFFF;
+    margin-top: 20px;
+    transition: 0.5s ease;
+}
+
+.swiper .slider-wrapper .swiper-slide-button:hover {
+    color: #56B350;
+}
+  

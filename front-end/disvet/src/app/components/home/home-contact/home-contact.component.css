@@ -1,0 +1,174 @@
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container-banner {
+    align-items: center;
+    background-image: url(../../../../assets/home/home-contact/banner-contact.webp);
+    background-position: 42% 42%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 729px;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-banner p {
+    align-items: center;
+    color: #FFF;
+    display: flex;
+    font-size: 75px;
+    font-weight: 700;
+    flex-direction: column;
+}
+
+.container-banner p span {
+    display: block;
+}
+
+#background {
+    background-color: #FFFFFF;
+    height: 680px;
+}
+
+.container-absolute {
+    position: absolute;
+    top: 600px;
+}
+
+.container-contact {
+    align-items: center;
+    display: flex;
+    height: 617px;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.container-contact::before {
+    background-image: url(../../../../assets/home/home-contact/background-contact.webp);
+    background-position: 100% 600%;
+    background-repeat: no-repeat;
+    content: "";
+    height: 617px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 1170px;
+    z-index: -2;
+}
+
+.container-contact::after {
+    background: linear-gradient(to top, rgba(251,249,244,0.7), rgb(255, 255, 255));
+    content: "";
+    height: 617px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1170px;
+    z-index: -1;
+}
+
+.container-contact .container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 60px;
+}
+
+.container-contact .container-left #first-title{
+    color: #53B250;
+    font-family: "Covered By Your Grace";
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.container-contact .container-left #main-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px
+}
+
+.container-contact .container-left #main-title span {
+    display: block;
+}
+
+.container-contact .container-left #text-contact-left {
+    color: #656565;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-contact .container-left #text-contact-left span {
+    font-weight: 700;
+}
+
+.container-contact .container-left ul {
+    color: #656565;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.container-contact .container-left ul li i {
+    color: #52B150;
+    margin-right: 10px;
+}
+
+.container-contact .container-left #button-green {
+    align-items: center;
+    background: linear-gradient(to left, #92C64E, #4BAF50);
+    border-radius: 50px;
+    color: #FFFFFF;
+    display: flex;
+    font-weight: 700;
+    gap: 10px;
+    height: 66px;
+    justify-content: center;
+    width: 185px;   
+}
+
+.container-contact .container-right {
+    display: flex;
+    gap: 30px;
+}
+
+.container-contact .container-right img {
+    object-fit: cover;
+}
+
+.container-contact .container-right .image-contact {
+    position: relative;
+}
+
+.container-contact .container-right .image-contact::after{
+    background: linear-gradient(to bottom, rgba(248, 15, 15, 0), rgba(0,0,0,0.8));
+    content: "";
+    position: absolute;
+    height: 463px;
+    left: 0;
+    width: 311px;
+    z-index: 0;
+}
+
+.container-contact .container-right .image-contact p {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    left: 26px;
+    position: absolute;
+    top: 360px;
+    z-index: 1;
+}
+
+.container-contact .container-right .image-contact p span{
+    display: block;
+}

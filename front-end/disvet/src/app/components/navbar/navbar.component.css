@@ -1,0 +1,130 @@
+nav {
+    left: 50%;
+    position: absolute;
+    top: 25px;
+    transform: translateX(-50%); 
+    z-index: 3;
+}
+
+.top-navbar-green{
+    background: linear-gradient(to right, #4BAF50, #92C64E);
+    border-radius: 50px 50px 0 0;
+    height: 50.01px;
+    margin-left: 42.01px;
+    width: 1100.98px;
+}
+
+.top-navbar-green .container{
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 13.88px;
+    font-weight: 600;
+    gap: 110px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.top-navbar-green .container #container-email span,
+.top-navbar-green .container #container-adress span{
+    align-items: baseline;
+    display: flex;
+    gap: 10px;
+}
+
+.top-navbar-green .container #container-adress {
+    display: flex;
+    gap: 50px;
+}
+
+
+.top-navbar-green .container #icons-navbar {
+    display: flex;
+    gap: 15px;
+    margin-left: 130px;
+}
+
+.top-navbar-green .container #icons-navbar a{
+    color: #FFFFFF;
+}
+
+.top-navbar-white {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px 20px 50px 50px;
+    display: flex;
+    height: 111px;
+    width: 1200px;
+}
+
+.top-navbar-white .container {
+    align-items: center;
+    display: flex;
+    gap: 80px;
+}
+
+.top-navbar-white .container a {
+    text-decoration: none;
+}
+
+.top-navbar-white .container .container-logo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    margin: 5px 0 0 50px;
+}
+
+.top-navbar-white .container .container-logo .logo-top{
+    color: #000000;
+    font-size: 35.94px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.top-navbar-white .container .container-logo a span{
+    color: #118442;
+    font-size: 21.97px;
+    margin-left: 5px;
+    vertical-align: super;
+}
+
+.top-navbar-white .container .container-logo .logo-bottom{
+    color: #118442;
+    font-size: 12.98px;
+}
+
+.top-navbar-white .container .container-links{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.top-navbar-white .container .container-links .buttons-navbar {
+    color: #737373;
+}
+
+
+.top-navbar-white .container .container-links .buttons-navbar:hover {
+    transition: 0.5s;
+    color: #111C16;
+    
+}
+
+.top-navbar-white .container .container-buttons {
+    align-items: flex-end;
+    display: flex;
+    gap: 40px;
+}
+
+.top-navbar-white .container .container-buttons .button-circle {
+    align-items: center;
+    background: linear-gradient(to left, #92C64E, #4BAF50);
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    height: 43px;
+    justify-content: center;
+    width: 43px;
+}

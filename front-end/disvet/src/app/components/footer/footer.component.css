@@ -1,0 +1,151 @@
+footer {
+    align-items: center;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    height: 579px;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-flex {
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    height: 422px;
+    justify-content: space-between;
+    width: 1169px;
+}
+
+.container-flex .main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 262.14px;
+    margin-left: 100px;
+    width: 238px;
+}
+
+.container-flex .main .container-logo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    width: 133px;
+}
+
+.container-flex .main .container-logo .logo-top {
+    font-size: 35.94px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.container-flex .main .container-logo .logo-top span {
+    color: #118442;
+    font-size: 21.97px;
+    font-weight: 600;
+    margin-left: 2px;
+    vertical-align: super;
+}
+
+.container-flex .main .container-logo .logo-bottom {
+    color: #118442;
+    font-size: 12.98px;
+    font-weight: 400;
+}
+
+.container-flex .main #text-footer {
+    color: #656565;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.container-flex .main .container-social {
+    display: flex;
+    flex-direction: column;
+    width: 238px;
+}
+
+.container-flex .main .container-social p {
+    color: #118442;
+    font-size: 12.98px;
+    font-weight: 600;
+}
+
+.container-flex .main .container-social .icons-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.container-flex .main .container-social .icons-social a {
+    text-decoration: none;
+}
+
+.container-flex .main .container-social .icons-social a .box-social {
+    align-items: center;
+    background-color: #1A1E1F;
+    display: flex;
+    height: 46px;
+    justify-content: center;
+    width: 46.32px;
+}
+
+.container-flex .main .container-social .icons-social a .box-social:hover {
+    background: linear-gradient(to left, #92C64E, #4BAF50);
+    transition: 0.4s;
+}
+
+.container-flex .main .container-social .icons-social a .box-social i {
+    color: #FFFFFF;
+}
+
+.container-flex .main .container-social .icons-social a .box-social:hover i {
+    color: #1A1E1F;
+    transition: 0.2s;
+}
+
+.container-flex .container-mid {
+    height: 262px;
+    width: 134px;
+}
+
+.container-flex .container-mid .container-title {
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.container-flex .container-mid .container-title h2 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.container-flex .container-mid ul {
+    list-style: none;
+}
+
+.container-flex .container-mid ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.container-flex .container-mid ul li i {
+    margin-right: 10px;
+}
+
+.container-flex img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    object-fit: cover;
+}
+
+.container-copy {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 1169px;
+}

@@ -1,0 +1,78 @@
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 800px;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h5 {
+    color: #52B150;
+    font-family: "Covered By Your Grace";
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.header h1 {
+    color: #252924;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.container .image-work {
+    border-radius: 250px;
+    height: 433.44px;
+    width: 433px;
+    overflow: hidden;
+}
+
+.container .image-work img {
+    object-fit: cover;
+}
+
+.container .text-work {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 90px;
+}
+
+.container .text-work h2{
+    color: #252924;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.container .text-work #text {
+    color: #656565;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container .text-work .container-email {
+    border-bottom: 1px solid #D4DFED;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container .text-work p {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.container .text-work p i {
+    font-size: 20px;
+    margin-right: 10px;
+}

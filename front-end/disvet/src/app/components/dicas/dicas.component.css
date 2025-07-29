@@ -1,0 +1,110 @@
+header {
+    align-items: end;
+    display: flex;
+    height: 586px;
+    justify-content: center;  
+    position: relative;
+    width: 100%;
+}
+
+header::before {
+    background-image: url(../../../assets/dicas/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 11%;
+    content: "";
+    height: 586px;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
+
+header:after {
+    background-color: rgb(17, 28, 22, 0.7);
+    content: "";
+    height: 586px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+header .container-adjustment {
+    margin-bottom: 60px;
+}
+
+header .container-adjustment .title {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+header .container-adjustment .container-text-header{
+    display: flex;
+    gap: 13px;
+}
+
+header .container-adjustment .container-text-header a{
+    color: #5c8f3c;
+    text-decoration: none;
+}
+
+header .container-adjustment .container-text-header a:hover {
+    color: #7ABE4F;
+}
+
+header .container-adjustment .container-text-header p {
+    color: #B8B8D3;
+}
+
+/* section */
+
+section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 2300px;
+    width: 100%;
+}
+
+.main-content {
+    height: 2037px;
+    width: 1180px;
+}
+
+.main-content .content {
+    display: flex;
+    margin-top: 60px;
+    width: 1180px;
+}
+
+.main-content .content .container-text {
+    align-items: center;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+}
+
+.main-content .content .container-text .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-content .content .container-text h4 {
+    color: #252924;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.main-content .content .container-text h4 .line-broken {
+    display: block;
+}
+
+.main-content .content .container-text p {
+    color: #656565;
+    font-size: 20px;
+    font-weight: 400;
+}

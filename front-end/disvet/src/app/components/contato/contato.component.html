@@ -1,0 +1,18 @@
+<div class="main-contact">
+    <div class="banner">
+
+    </div>
+    <div class="form-contact">
+        <div class="informations">
+
+        </div>
+        <div class="form">
+            <form (ngSubmit)="sendMenssage()">
+                <input type="text" name="nome" [(ngModel)]="form.nome" placeholder="Seu nome" required/>
+                <input type="email" name="email" [(ngModel)]="form.email" placeholder="Seu email" required>
+                <textarea name="menssage" [(ngModel)]="form.menssage" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
